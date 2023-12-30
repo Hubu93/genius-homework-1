@@ -38,6 +38,12 @@ span {
   font-size: 18px;
 }
 
+.header-main h1 {
+  font-size: 140px;
+  line-height: 0.8;
+  font-weight: 700;
+}
+
 .header-main p {
   font-size: 18px;
 }
