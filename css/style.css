@@ -1,0 +1,139 @@
+:root {
+  --main_blue: #2b7fff;
+  --main-color: #011c44;
+  --font_Play: 'Play', sans-serif;
+  --font_Roboto: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font_Roboto);
+  list-style-type: none;
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-family: var(--font_Play);
+  color: var(--main_blue);
+}
+
+span {
+  color: var(--main_blue);
+  font-weight: 700;
+}
+
+.header_logo {
+  font-weight: 700;
+  font-family: var(--font_Play);
+  color: var(--main_blue);
+  font-size: 22px;
+  line-height: 1;
+}
+
+.header_nav__list {
+  font-size: 18px;
+}
+
+.header-main p {
+  font-size: 18px;
+}
+
+.header-main button {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.header-main .header-p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.transformacion h2 {
+  color: var(--main-color);
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.transformacion p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.why-us h2 {
+  color: var(--main-color);
+  font-family: var(--font_Play);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.1;
+}
+
+.article-content {
+  font-size: 18px;
+  color: var(--main-color);
+  font-family: var(--font_Roboto);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.our-work h2 {
+  color: var(--main-color);
+}
+
+.our-nav h2 {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.1;
+}
+
+.form-contact h3 {
+  font-size: 22px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.form-button {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.form-contact p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer-nav-list li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+adres a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.footer-list-copy li {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer-list-copy li:last-child {
+  color: #747272;
+  line-height: 1.1;
+  font-size: 13px;
+  font-weight: 400;
+}
